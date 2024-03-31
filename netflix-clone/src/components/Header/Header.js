@@ -11,7 +11,7 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 400) {
+      if (window.scrollY > 421) {
         setAbyssinia(true);
       } else {
         setAbyssinia(false);
